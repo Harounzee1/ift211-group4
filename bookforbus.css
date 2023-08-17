@@ -1,0 +1,99 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-attachment: center;
+    background-size: 220%;   
+}
+#nav{
+    font-size: 18px;
+    color: white;
+    row-gap: 500%; 
+}
+#search{
+    width: 20%;
+    padding: 
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: cornflowerblue;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+}
+#bus1{
+    width: 80px;
+    height: 80px;
+    float: right;
+    border-radius: 10%;
+}
+.rep{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10%;
+    width: 40%;
+    margin: 30% auto;
+    padding: 20px;
+    margin-top: 5%;
+    background-color: whitesmoke;
+}
+#form{
+    width: 97%;
+    background-color:transparent;
+    border-width: 3px;
+    border-color: lightgrey;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+
+    
+}
+#man{
+    width: 97%;
+    background-color:transparent;
+    border-width: 3px;
+    border-color: lightgrey;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+#destination{
+    width: 97%;
+    background-color:transparent;
+    border-width: 3px;
+    border-color: lightgrey;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+#seat {
+    width: 97%;
+    background-color:transparent;
+    border-width: 3px;
+    border-color: lightgrey;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+#trip {
+    width: 97%;
+    background-color:transparent;
+    border-width: 3px;
+    border-color: lightgrey;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+.input{
+    font-size: 14px;
+    color: cornflowerblue;
+}

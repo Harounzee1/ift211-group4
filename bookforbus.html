@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>futminna bus booking platform</title>
+    <link rel="stylesheet" href="bookforbus.css">
+</head>
+
+<body style="background-color: whitesmoke;">
+    <div>
+        <center>
+            <header>
+                <nav>
+                    <p id="nav" style="background-color: cornflowerblue;">
+                        <a href="homepage.html">Home</a> | <a href="about.html">About</a> | <a href="route.html">Route</a>
+                    </p>
+                </nav>
+            </header>
+        </center>
+    </div>
+    <div>
+        <form action="bookingform.html" method="post" class="rep" style="background-color: cornflowerblue;">
+            <img src="futminna-min.jpeg" alt="bookingform" id="logo">
+            <img src="bus2.jpeg" alt="bus" id="bus1">
+            <center>
+                <h1 style="color: white;">FUTMINNA BUSPARK BOOKING FORM</h1>
+                <h2 style="color: purple;">BOOK A BUS</h2>
+            </center>
+
+            <div>
+                <p style="color:white; font-size: 15px"><b>NAME</b></p>
+                <input type="text" name="NAME" id="form" placeholder="NAME">
+            </div>
+            <div>
+                <p style="color:white; font-size: 15px"><b>TIME AND DATE</b></p>
+                <input type="datetime-local" name="time&date" id="man" placeholder="TIME&DATE">
+            </div>
+            <div>
+                <p style="color:white; font-size: 15px"><b>DESTINATION</b></p>
+                <select name="DESTINATION" id="destination" placeholder="DESTINATION">
+                    <option value="destination"></option>
+                    <option value="School Gate">GK School Gate</option>
+                    <option value="MM Castle">MM Castle</option>
+                    <option value="Kpakungun">Kpakungun</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Bosso Campus">Bosso Campus</option>
+                </select>
+            </div>
+            <div>
+                <p style="color:white; font-size: 15px"><b>SEAT NO</b>
+                </p>
+                <select name="SEAT NO" id="seat" placeholder="SEAT NO">
+                    <option value="SEAT NO"></option>
+                    <option value="R1S1">R1S1</option>
+                    <option value="R1S2">R1S2</option>
+                    <option value="R1S3">R1S3</option>
+                    <option value="R1S4">R1S4</option>
+                    <option value="R2S1">R2S1</option>
+                    <option value="R2S2">R2S2</option>
+                    <option value="R2S3">R2S3</option>
+                    <option value="R2S4">R2S4</option>
+                    <option value="R3S1">R3S1</option>
+                    <option value="R3S2">R3S2</option>
+                    <option value="R3S3">R3S3</option>
+                    <option value="R3S4">R3S4</option>
+                    <option value="R4S1">R4S1</option>
+                    <option value="R4S2">R4S2</option>
+                    <option value="R4S3">R4S3</option>
+                    <option value="R4S4">R4S4</option>
+                    <option value="R5S1">R5S1</option>
+                    <option value="R5S2">R5S2</option>
+                    <option value="R5S3">R5S3</option>
+                    <option value="R5S4">R5S4</option>
+                    <option value="R6S1">R6S1</option>
+                    <option value="R6S2">R6S2</option>
+                    <option value="R6S3">R6S3</option>
+                    <option value="R6S4">R6S4</option>
+                    <option value="R7S1">R7S1</option>
+                    <option value="R7S2">R7S2</option>
+                    <option value="R7S3">R7S3</option>
+                    <option value="R7S4">R7S4</option>
+                    <option value="R8S1">R8S1</option>
+                    <option value="R8S2">R8S2</option>
+                    <option value="R8S3">R8S3</option>
+                    <option value="R8S4">R8S4</option>
+                    <option value="R9S1">R9S1</option>
+                    <option value="R9S2">R9S2</option>
+                    <option value="R9S3">R9S3</option>
+                    <option value="R9S4">R9S4</option>
+                </select>
+            </div>
+            <div>
+                <p style="color:white; font-size: 15px"><b>PHONE NO</b></p>
+                <input type="number" name="phone no" id="man" placeholder="PHONE NO">
+            </div>
+            <div>
+                <p style="color:white; font-size: 15px"><b>TRIP TIME</b></p>
+                <select name="TRIP TIME" id="trip" placeholder="TRIP TIME">
+                    <option value="TRIP TIME"></option>
+                    <option value="Morning Trip">Morning Trip</option>
+                    <option value="Afternoon Trip">Afternoon Trip</option>
+                    <option value="Evening Trip">Ecvening Trip</option>
+                </select>
+            </div>
+            <center class="input">
+                <input type="submit" name="back" value="BACK" id="back"/>
+                <button onclick="getvalue()">SUBMIT</button>
+                <script type="text/javascript">
+                    function getvalue() {
+                        alert(document.getElementById('nav').checked);
+                    }
+                </script>
+            </center>
+        </form>
+    </div>
+</body>
+</html>

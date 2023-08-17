@@ -1,0 +1,7 @@
+body {
+    background-image: url(map.jpeg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: center;
+    background-size: 50%; 
+}
